@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*tagのcssを追加*/
+.tag {
+  @apply inline-block bg-green-500 text-white text-sm px-3 py-1 rounded-full m-1 cursor-pointer hover:bg-green-600 transition;
+}
