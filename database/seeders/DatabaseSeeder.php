@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
             SpecialtyHospitalSeeder::class,
             ReviewSeeder::class,
             HospitalDisorderSpecialtySeeder::class,
+            OpeningHoursSeeder::class,
     ]);
     }
 }

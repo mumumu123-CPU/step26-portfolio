@@ -7,6 +7,7 @@ use App\Models\Disorder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use App\Models\Specialty; 
 use App\Models\Review;
+use App\Models\OpeningHour;
 
 class Hospital extends Model
 {
@@ -15,7 +16,7 @@ class Hospital extends Model
     // App\Models\Hospital.php
     protected $fillable = [
         'name', 'address', 'type', 'homepage_url', 'map_url',
-        'prefecture', 'station', 'day_of_week',
+        'prefecture', 'station', 'day_of_week', //　修正予定'day_of_week''am_open', 'pm_open',は削除する。
         'am_open', 'pm_open', 'treatment', 'feature',
         'phone',
     ];
@@ -33,5 +34,9 @@ class Hospital extends Model
     public function reviews () {
         // １対多
         return $this->hasMany(Review::class);
+    }
+
+    public function openingHours() {
+        return $this->hasOne(OpeningHour::class);
     }
 }

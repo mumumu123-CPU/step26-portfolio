@@ -14,32 +14,6 @@
     </div>
 
 
-
-    <!--　ボツ？
-<div class="pb-6 sm:pb-8 lg:pb-12 border-b border-gray-300 bg-brand-100 bg-opacity-30 p-6 rounded-lg">
-  <div class="relative mx-auto max-w-screen-2xl px-4 md:px-8">
-    
-    
-    
-    <div class="absolute right-[-1vw] top-[20%] w-[35vw] h-[25vw] bg-green-200 rounded-full blur-[120px] opacity-70 z-0"></div>
-
-    <section class="relative min-h-[600px] flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row z-10">
-      
-      
-      <div class="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-        <p class="text-[40px] font-bold text-gray-800 tracking-wide">検索結果</p>
-      </div>
-
-      
-      <div class="flex items-center justify-center xl:w-7/12">
-        <img src="{{ asset('assets/images/image6.png') }}" alt="検索を考える人物" class="w-full max-w-md h-auto object-contain" />
-      </div>
-
-    </section>
-  </div>
-</div>
--->
-
     <section
         class="max-w-screen text-center py-12  py-12 px-4 bg-brand-100 bg-opacity-30 border-b border-gray-300 w-full">
         <h2 class="text-[32px] font-semibold text-gray-800 mb-4 mx-auto">病院を探す</h2>
